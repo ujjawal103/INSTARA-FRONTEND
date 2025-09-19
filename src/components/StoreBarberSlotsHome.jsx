@@ -55,7 +55,7 @@ export default function StoreBarberSlotsHome() {
         );
 
         if (response.status === 200) {
-          // toast.success("slots updated successfully");
+          console.log("slots updated successfully");
         }
       } catch (err) {
         const message = err.response?.data?.message || "Something went wrong !";

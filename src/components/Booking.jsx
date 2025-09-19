@@ -56,7 +56,8 @@ export default function Bookings({store}) {
         );
 
         if (response.status === 200) {
-          // toast.success("slots updated successfully");
+          console.log("Expired slots updated");
+          fetchData(); // Refresh data to reflect changes
         }
       } catch (err) {
              const message = err.response?.data?.message || "Something went wrong !";

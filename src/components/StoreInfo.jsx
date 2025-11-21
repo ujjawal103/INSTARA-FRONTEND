@@ -12,11 +12,10 @@ const StoreInfo = ({ store }) => {
       <div className="p-4">
         <h2 className="text-xl font-semibold text-gray-800 mb-2">{store.name}</h2>
         <p className="text-gray-500 mb-2">
-          Regular Price: <span className="font-medium">{store.price}</span>
+          Regular Price: <span className="font-medium">₹70 only</span>
         </p>
         <p className="text-gray-600 text-sm">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-          venenatis, nunc sit amet convallis mattis, ligula justo.
+          Book your slot now and start saving time!
         </p>
       </div>
     </div>
